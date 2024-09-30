@@ -12,9 +12,24 @@ The same data has been put on the Dogon and Bangime Linguistics project [site]([
 ## Processed data
 The processed data, after manual process is data.tsv
 Each row is a word and the columns are as follows:
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
-| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+| Column | Info |
+| --------------- | --------------- | 
+| ID    | unique identifier    | 
+| VARID    | variant form identifier    | 
+| DOCULECT    | language name    | 
+| GLOSS    | the meaning of the form as used by language users    |
+| FRENCH    | the gloss translation in French    |
+| ENGLISH_SHORT    | the reduced gloss in English    |
+| FRENCH_SHORT    | the reduced gloss in French    |
+| ENGLISH_CATEGORY    | categorization of reduced gloss into designated categories    |
+| FRENCH_CATEGORY    | categorization of reduced gloss in French into designated categories    |
+| VALUE_ORG    | original form noted by field-linguist    |
+| SINGULAR    | singular form of word,where neccesary. form used if available (except for verbs)    |
+| PLURAL    | plural form of word, where neccesary    |
+| FORM    | 'consensus' form chosen for verbs    |
+| PARSED_FORM    | proposed segmentation of 'consensus' form    |
+| RECONSTRUCTION    | proposed reconstruction    |
+| CONCEPT    | standardized reference of gloss    |
+| POS    | part of speech of word    |
+
 
