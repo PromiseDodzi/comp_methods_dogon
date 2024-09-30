@@ -7,7 +7,8 @@ All data used for experiments are stored as .tsv files
 
 ### Original data
 The orginal data as the field linguist curated is named original_data.tsv
-The same data has been put on the Dogon and Bangime Linguistics project [site]([url](https://dogonlanguages.info/))
+The same data has been put on the Dogon and Bangime Linguistics project site which is accessible by this link
+https://dogonlanguages.info/
 The data has also been curated in CLDF (cross Linguistic Data Format), and it is publicly available via this link:
 https://github.com/languageorphans/heathdogon
 
