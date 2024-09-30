@@ -4,3 +4,13 @@ The repository contains both the data and the source code used in the paper's ex
 
 # Data
 All data used for experiments are stored as .tsv files
+
+## Original data
+The orginal data as the field linguist curated is named original_data.tsv
+The same data has been put on the Dogon and Bangime Linguistics project [site]([url](https://dogonlanguages.info/))
+
+## Processed data
+The processed data, after manual process is data.tsv
+Each row is a word and the columns are as follows:
+column-info
+one|two
