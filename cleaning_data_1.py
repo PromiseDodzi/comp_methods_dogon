@@ -8,7 +8,7 @@ from sys import argv
 data = pd.read_csv(argv[1], sep="\t", encoding="utf-8")
 
 #dropping unwanted columns
-list_to_drop=["ID","FRENCH", "ENGLISH_SHORT", "FRENCH_SHORT", "ENGLISH_CATEGORY", "FRENCH_CATEGORY", "PARSED FORM", "MCF", "RECONSTRUCTION", "NOTE", "NOTES","Unnamed: 18", "Unnamed: 19", "Unnamed: 20", "Unnamed: 21", "COGID", "COGIDS", "Unnamed: 24"]
+list_to_drop=["ID","FRENCH", "ENGLISH_SHORT", "FRENCH_SHORT", "ENGLISH_CATEGORY", "FRENCH_CATEGORY", "PARSED FORM", "RECONSTRUCTION"]
 data=data.drop(list_to_drop, axis=1)
 
 #pulling neccesary data together
@@ -31,4 +31,5 @@ data = data.dropna(subset=["IPA"])
 data = data.drop(data.loc[(data["GLOSS"] == "(1Pl subject pronominal)") & (data["DOCULECT"] == "Mombo")].index)
 
 #output cleaned and formatted data
+print("cleaned data outputed to 'notebook_4_1.tsv'")
 data.to_csv("notebook_4_1.tsv", index=False, encoding="utf-8", sep='\t')
