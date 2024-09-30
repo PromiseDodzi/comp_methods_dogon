@@ -46,11 +46,11 @@ Each row is a word and the columns are as follows
 
 # Commands
 Prior to running the following commands, clone this repository and run `pip install -r requirements.txt`
-* python cleaning_data_1.py data.tsv runs the segmentation rule 'utils.py' on manually processed data 'data.tsv' by calling on various functions in 'functions.py'.
+* `python cleaning_data_1.py data.tsv` runs the segmentation rule 'utils.py' on manually processed data 'data.tsv' by calling on various functions in 'functions.py'.
 this outputs `notebook_4_1`, which is the final processed data ready for automatic cognate detection to be run
-* python illustrations.py produces analysis of the `notebook_4_1`, outputting 'coverage_plot.png', a graph of every language's coverage, `mutual_coverage.png`, which gives an idea of length and breath coverage in data, and number of items on the command line
-* python cognates_alignments_2.py outputs `notebook_4_lexstat.tsv` and `notebook_4_alignment_2.html` which are cognate clustering results and alignments results respectively.
-* python clustering_3.py takes `notebook_4_lexstat.tsv` as input to output 'tree_notebook_4', a phylogenetic relationship based on cognacy, and `heatmap_notebook_4`, a heatmap of agregated pairwise distances between languages.
+* `python illustrations.py` produces analysis of the `notebook_4_1`, outputting 'coverage_plot.png', a graph of every language's coverage, `mutual_coverage.png`, which gives an idea of length and breath coverage in data, and number of items on the command line
+* `python cognates_alignments_2.py` outputs `notebook_4_lexstat.tsv` and `notebook_4_alignment_2.html` which are cognate clustering results and alignments results respectively.
+* `python clustering_3.py` takes `notebook_4_lexstat.tsv` as input to output 'tree_notebook_4', a phylogenetic relationship based on cognacy, and `heatmap_notebook_4`, a heatmap of agregated pairwise distances between languages.
 
 
 
