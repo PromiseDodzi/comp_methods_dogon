@@ -2,6 +2,7 @@
 
 This repository accompanies the paper "Adopting a computer-assisted approach to historical language comparison: defining early steps in a Dogon languages comparative work" by Promise Dodzi Kpoglu. The repository contains both the data and the source code used in the paper's experiments. The code, files, and illustrations are available on the `master` branch of this repository.
 
+---
 ## Data
 
 All data used for experiments are stored in the `files` folder.
@@ -34,6 +35,7 @@ The processed data, after manual processing, is named `data.tsv`. Each row repre
 | CONCEPT           | Standardized reference of gloss                                     |
 | POS               | Part of speech of the word                                         |
 
+---
 ### Cleaned Data
 
 This is the data obtained after semi-manual processing. Each row represents a word, and the columns are as follows:
@@ -44,6 +46,7 @@ This is the data obtained after semi-manual processing. Each row represents a wo
 | GLOSS     | Meaning of the form as used by language users                       |
 | IPA       | Standardized representation of the word in IPA                       |
 
+---
 ## Scripts
 
 The `scripts` folder contains all the Python scripts needed to obtain the results reported in the paper.
@@ -55,6 +58,7 @@ The `scripts` folder contains all the Python scripts needed to obtain the result
 - `cognates_alignments.py`: Automatically determines cognates in the data and performs alignment analysis. Outputs files into the `files` folder.
 - `clustering.py`: Accepts the results of `cognates_alignments.py` and performs clustering and analysis. Results are outputted into the `illustrations` folder.
 
+---
 ## Illustrations
 
 This folder contains:
@@ -64,6 +68,7 @@ This folder contains:
 - `heatmap.png`: A heatmap illustrating the weighted distances between languages.
 - `tree.png`: A phylogenetic tree illustrating the relationships between the various Dogon languages.
 
+---
 ## Commands
 
 To obtain the same results reported in the paper:
@@ -80,5 +85,16 @@ There are two ways to obtain the results:
   - `python cognates_alignments.py`: Outputs `lexstat.tsv` and `alignment_2.html`, which are cognate clustering results and alignment results, respectively.
   - `python clustering.py`: Takes `lexstat.tsv` as input to output `tree.png`, a phylogenetic relationship based on cognacy, and `heatmap.png`, a heatmap of aggregated pairwise distances between languages.
 
+---
+## Acknowledgments
 
+This work is based on data from Heath et al.'s *"Dogon Comparative Wordlist"* (2016).  
+CLDF framework tools were used for dataset curation and analysis.  
+
+Special thanks to all BANG project members for their invaluable contributions to this project.  
+
+This paper is part of the ERC-funded project: **BANG - The Mysterious Bang: A Language and Population Isolate Unlocks the Secrets of Interior West Africa's Lost Ethnolinguistic Diversity**.  
+- **CORDIS Number**: 101045195  
+- **Project ID**: 101045195
+---
 
