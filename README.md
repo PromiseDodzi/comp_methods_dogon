@@ -89,7 +89,6 @@ There are two ways to obtain the results:
 ## Acknowledgments
 
 This work is based on data from Heath et al.'s *"Dogon Comparative Wordlist"* (2016).  
-CLDF framework tools were used for dataset curation and analysis.  
 
 Special thanks to all BANG project members for their invaluable contributions to this project.  
 
